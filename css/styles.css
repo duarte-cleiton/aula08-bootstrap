@@ -25,6 +25,14 @@ a{
     z-index: 1;
 }
 
+.top-header .menu{
+    margin-left: 26%;
+}
+
+.mobile-menu{
+    display: none;
+}
+
 
 .top-header  ul {
     list-style: none;
@@ -74,12 +82,39 @@ a{
     background: url(../images/bg-home.jpg);
     background-size: cover;
     background-position: center;
-    height: 100vh; 
+    height: 100%; 
 }
 
 .home-center{
     text-align: center;
     height: 100vh;
-    margin-top: 46%;
+    margin-top: 25%;
+}
+
+.home-center h1{
+    font-size: 80px;
+    color: rgba(255,255,255, 0.9);
+    font-weight: normal;
+    margin-top: 140px;
+}
+
+.home-center p{
+    font-weight: normal;
+    color: rgba(255,255,255, 0.5);
+    margin-bottom: 30px;
+
+}
+
+.home-center a{
+    background: yellowgreen;
+    border-radius: 35px;
+    padding: 15px 20px;
+    margin: 0 auto 140px auto;
+    text-align: center;
+    color: white;
+}
+
+.home-center a:hover{
+    text-shadow: 0px 0px 2px white;
 }
 
